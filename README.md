@@ -1,7 +1,5 @@
 # برنامه‌ریزی و مدیریت نوبت‌ها رویال | Royal Timing
 
-![مجوز](https://img.shields.io/badge/license-MIT-blue)
-
 ## فهرست مطالب
 
 - [About](#about)
@@ -14,10 +12,10 @@
 
 > یک ابزار ساده، کاربردی و انعطاف‌پذیر برای برنامه‌ریزی و مدیریت نوبت‌ها بر اساس روز، هفته، ماه و سال.
 
-[![GitHub License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPOSITORY)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPOSITORY)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/YOUR_USERNAME/YOUR_REPOSITORY)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/issues)
-[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPOSITORY)](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY/commits)
+[![GitHub License](https://img.shields.io/github/license/sysroyal/Royal.Timing)](LICENSE)
+[![GitHub Stars](https://img.shields.io/github/stars/sysroyal/Royal.Timing)](https://github.com/sysroyal/Royal.Timing/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/sysroyal/Royal.Timing)](https://github.com/sysroyal/Royal.Timing/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/sysroyal/Royal.Timing)](https://github.com/sysroyal/Royal.Timing/commits)
 
 ---
 
@@ -179,7 +177,7 @@
 
 این نرم‌افزار فقط برای یک خانواده یا یک نوع فعالیت طراحی نشده است.
 
-### 👨‍👩‍👧‍👦 خانواده
+### 👨‍👩‍👧‍👦  خانواده
 
 * تهیه غذا
 * مراقبت از سالمند
@@ -250,23 +248,6 @@ Excel یک ابزار بسیار قدرتمند است، اما زمانی که 
 ---
 
 # 🖼️ Screenshots
-
-تصاویر محیط برنامه را می‌توان در این قسمت قرار داد.
-
-پیشنهاد می‌شود تصاویر در مسیر زیر قرار بگیرند:
-
-```text
-docs/
-└── screenshots/
-    ├── dashboard.png
-    ├── calendar.png
-    ├── schedule.png
-    └── settings.png
-```
-
-سپس تصاویر در README نمایش داده شوند:
-
-```markdown
 ## 📸 تصاویر برنامه
 
 ### داشبورد
@@ -319,25 +300,25 @@ Windows / Android / Web
 ## دریافت پروژه
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+git clone https://github.com/sysroyal/Royal.Timing.git
 ```
 
 سپس وارد پوشه پروژه شوید:
 
 ```bash
-cd YOUR_REPOSITORY
+cd Royal.Timing
 ```
 
 ## نصب وابستگی‌ها
 
 ```bash
-YOUR_INSTALL_COMMAND
+npm install
 ```
 
 ## اجرای پروژه
 
 ```bash
-YOUR_RUN_COMMAND
+npm run build
 ```
 
 > دستورات بالا باید بر اساس تکنولوژی و ساختار واقعی پروژه جایگزین شوند.
@@ -395,11 +376,7 @@ YOUR_REPOSITORY/
 * [ ] همگام‌سازی ابری
 * [ ] حساب کاربری
 * [ ] اشتراک‌گذاری برنامه
-* [ ] خروجی Excel
-* [ ] خروجی PDF
 * [ ] اعلان از طریق پیام‌رسان‌ها
-* [ ] پشتیبانی کامل از تقویم شمسی
-* [ ] پشتیبانی هم‌زمان از تقویم شمسی و میلادی
 * [ ] مدیریت گروه‌های مختلف
 * [ ] گزارش میزان مشارکت هر فرد
 * [ ] الگوریتم پیشرفته برای تقسیم عادلانه نوبت‌ها
@@ -469,60 +446,6 @@ YOUR_REPOSITORY/
 
 ---
 
-# ❤️ داستان این پروژه
-
-این پروژه برای من فقط یک پروژه نرم‌افزاری نیست.
-
-همه چیز از یک مسئله کوچک در خانواده شروع شد.
-
-یک فایل Excel برای پاسخ به یک سؤال ساده:
-
-> **امروز چه کسی باید برای مادربزرگ غذا تهیه کند؟**
-
-اما همین مسئله کوچک باعث شد متوجه شوم که نوبت‌بندی، خودش یک مسئله مستقل است.
-
-مسئله‌ای که در بسیاری از خانواده‌ها و گروه‌ها وجود دارد.
-
-از یک جدول ساده شروع کردم.
-
-چند اسم.
-
-چند تاریخ.
-
-چند نوبت.
-
-و در نهایت ایده ساخت یک نرم‌افزار شکل گرفت.
-
----
-
-# 🌍 از یک خانواده برای همه
-
-شاید شما هم برای یکی از اعضای خانواده نوبت‌بندی داشته باشید.
-
-شاید چند نفر در یک خانه زندگی می‌کنند و باید کارهای خانه را تقسیم کنند.
-
-شاید یک گروه نیاز به برنامه شیفت داشته باشد.
-
-شاید چند نفر از یک باغ مراقبت می‌کنند.
-
-شاید یک تیم نیاز به تقسیم وظایف دوره‌ای داشته باشد.
-
-در همه این موارد، مسئله تقریباً یکسان است:
-
-```text
-چند نفر
-   +
-چند مسئولیت
-   +
-زمان مشخص
-   =
-نیاز به برنامه‌ریزی نوبت
-```
-
-این پروژه با هدف حل همین مسئله ساخته شده است.
-
----
-
 # ⭐ حمایت از پروژه
 
 اگر این پروژه برای شما مفید بود، می‌توانید با دادن یک ⭐ به Repository از توسعه آن حمایت کنید.
@@ -542,13 +465,8 @@ YOUR_REPOSITORY/
 <p align="center">
 
 **ساخته شده با ❤️ از یک نیاز واقعی**
-
 <br>
-
-<sub>
 گاهی یک نرم‌افزار خوب، از یک مسئله خیلی ساده شروع می‌شود.
-</sub>
-
 </p>
 
 ## ویژگی‌ها
